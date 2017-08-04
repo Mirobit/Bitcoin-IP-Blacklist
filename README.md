@@ -1,7 +1,7 @@
 # Bitcoin IP Blacklist
 
-This project maintains a list with IPs that have shown harmful behaivor to the Bitcoin network. 
-This includes ressource wasting, slot blocking or spying.
+This project maintains a list with IPs that have shown harmful behavior to the Bitcoin network. 
+This includes ressource wasting, slot blocking, exploiting and spying.
 
 ## Lists
 
@@ -14,10 +14,10 @@ should consider banning them at OS level (e.g. `iptables`). The ban time for the
 * [bitcoin-cli](bitcoin-cli.md) - `bitcoin-cli listbanned` returns a list of all banned IPs.
 * [bitcoin-qt](bitcoin-qt.md) - `Help` -> `Debug window` -> `Console` (you need to enter every single line by hand)
 
-## What is malicious behaivor
+## What is malicious behavior?
 
-That is a tricky question. It is not always easy to distinguish malicous behaivor from normal behaivor. That is why I focused
-so far on the most obvious malicious peers. The following lists contains a few suspicius behaivors with no non-malicious use cases.
+That is a tricky question. It is not always easy to distinguish malicous behavior from normal behavior. That is why I focused
+so far on the most obvious malicious peers. The following lists contains a few suspicius behaviors with no non-malicious use cases.
 
 * Peers that reconnect every few seconds all day long. They [continue](http://imgur.com/5clGbB4) to do so even after a ban (spying?, trolling?)
 * Groups of peers from the same subnet (AWS hosted), with SPV agents that stay connected to your node for a long time (slot blocking)

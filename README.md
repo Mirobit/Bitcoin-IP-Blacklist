@@ -9,10 +9,10 @@ Aside from the original IP list, lists with ban commands for iptables, bitcoin-c
 Some IPs (peers) tend to ignore the ban and [try constantly](http://imgur.com/5clGbB4) to reconnect. So you 
 should consider banning them at OS level (e.g. `iptables`). The ban time for the bitcoin-cli and bitcoin-qt commands is set to 1 year.
 
-* [IPs](ips.md) - Includes IPs, clients and ban reason
-* [iptables](iptables.md) - Please read [how to make iptables persistent](https://askubuntu.com/questions/66890/how-can-i-make-a-specific-set-of-iptables-rules-permanent)
-* [bitcoin-cli](bitcoin-cli.md) - `bitcoin-cli listbanned` returns a list of all banned IPs.
-* [bitcoin-qt](bitcoin-qt.md) - `Help` -> `Debug window` -> `Console` (you need to enter every single line by hand)
+* [IPs](ips.md) - Includes IP, client and ban reason
+* [iptables](iptables.md) - Commands for iptables/ip6tables ([How to make iptables persistent](https://askubuntu.com/questions/66890/how-can-i-make-a-specific-set-of-iptables-rules-permanent))
+* [bitcoin-cli](bitcoin-cli.md) - Commands for bitcoin-cli (`bitcoin-cli listbanned` returns a list of all banned IPs)
+* [bitcoin-qt](bitcoin-qt.md) - Commands for bitcoin-qt (`Help` -> `Debug window` -> `Console` (you need to enter every single line by hand))
 
 ## What is malicious behavior?
 
